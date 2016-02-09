@@ -6,16 +6,11 @@ package com.simuduck;
 public class RubberDuck extends Duck {
 
     public RubberDuck() {
-        super(new Squeak(), new Fly());
+        super(new Squeak(), new NoFly());
     }
 
     @Override
     public void display() {
-
-    }
-
-    @Override
-    public void fly() {
 
     }
 }

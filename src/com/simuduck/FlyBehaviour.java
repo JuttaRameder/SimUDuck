@@ -5,6 +5,6 @@ package com.simuduck;
  */
 public interface FlyBehaviour {
 
-    void fly();
+    String fly();
 
 }
