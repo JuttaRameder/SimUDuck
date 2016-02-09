@@ -5,6 +5,6 @@ package com.simuduck;
  */
 public interface QuackBehaviour {
 
-    void quack();
+    String quack();
 
 }
